@@ -8,6 +8,7 @@ int OnInit()
       ObjectCreate(0,"Stop Level",OBJ_HLINE,0,0,SymbolInfoDouble(Symbol(),SYMBOL_BID)); // Create Stop Loss line
       return(INIT_SUCCEEDED);
 }
+
 /***** Main Function *****/ 
 int OnCalculate(const int rates_total,
                 const int prev_calculated,
